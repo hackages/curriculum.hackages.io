@@ -19,15 +19,13 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:100italic,100,300italic,300,400italic,400,700italic,700,900italic,900" />
     <link href="{{asset "css/ionicons.css"}}" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Josefin+Sans:100italic,100,300italic,300,400italic,400,600italic,600,700italic,700">
-    
+
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 </head>
 <body class="{{body_class}}">
     <div class="container">
-        
-        <div class="row">  
-        
+        <div class="row">
             <div class="side-nav">
                 <div class="logo">
                     <a href="/">
@@ -60,53 +58,30 @@
                     <footer>
                       <ul>
                         <li>
-                          <a href="https://github.com/sumitjaju" target="_blank">
+                          <a href="https://github.com/hackages" target="_blank">
                             <i class="icon ion-social-github-outline"></i>
                             <p>GitHub</p>
                           </a>
                         </li>
                         <li>
-                          <a href="https://twitter.com/jsumeet" target="_blank">
+                          <a href="https://twitter.com/hackages" target="_blank">
                             <i class="icon ion-social-twitter-outline"></i>
                             <p>@jsumeet</p>
                           </a>
                         </li>
-                        <li>
-                          <a href="http://sumitjaju.in" target="_blank">
-                            <i class="icon ion-social-googleplus-outline"></i>
-                            <p>sumitjaju.in</p>
-                          </a>
-                        </li>
                       </ul>
                     </footer>
-                    <form action="http://codiqa.createsend.com/t/t/s/thodi/" class="email-digest" method="post">
-                      <label for="cm-thodi-thodi">
-                        <p>Sign up for the weekly Learn Digest!</p>
-                      </label>
-                      <div class="digest-wrapper">
-                        <input name="cm-thodi-thodi" placeholder="Email address" required="" type="email">
-                        <input type="submit" value="Go">
-                      </div>
-                    </form>
-                    <!-- Display success messsage after user clicks on Go button-->
-                      <div class="email-digest-success">
-                        <p>Thanks for signing up.</p>
-                      </div>
                 </nav>
                 <!-- menus ends -->
             </div>
-            
         </div>
-        
         <header class="cover">
             <div class="mobilelogo">
                 <span id="logoTextPart1">{{@blog.title}}</span> 
                 <a href="/">
-                                 
                   {{#if @blog.logo}}<img alt="Blog Logo" src="{{@blog.logo}}" > {{/if}}
                 </a>
                 <!-- This menu gets rendered for mobile or iPad -->
-            
                     <ul class="menuHamburger clearfix" role="navigation">
 
                         <li class="categories dropdown">
@@ -134,35 +109,24 @@
                         </li>
                         <hr>
                         <li>
-                            <a href="https://twitter.com/jsumeet" target="_blank">
+                            <a href="https://twitter.com/hackages" target="_blank">
                                 <i class="icon ion-social-twitter-outline"></i>    
                                 @jsumeet
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/sumitjaju" target="_blank">
+                            <a href="https://github.com/hackages" target="_blank">
                                 <i class="icon ion-social-github-outline"></i>    
                                 GitHub
                             </a>
                         </li>
-                        <li>
-                            <a href="http://sumitjaju.in" target="_blank">
-                                <i class="icon ion-social-googleplus-outline"></i>    
-                                sumitjaju.in
-                            </a>
-                        </li>
-
                       </ul>
                     </section>
-                    </ul>  
+                    </ul>
                  <!-- menus end-->   
-                  
         </div>
     </header>
-        
-        
         <div class="main-pane"> 
-            
             {{! Everything else gets inserted here }}
             {{{body}}}
 
@@ -172,17 +136,13 @@
                   <span id="expandor" class="expand"></span>
                 </span>
                 <nav id="nav">
-                  <a href="http://sumitjaju.in" target="_blank">sumitjaju.in</a>
-                  <a href="mailto:karma@sumitjaju.in?subject=Hello Sumit!">say hi</a>
-                  <a href="https://github.com/sumitjaju" target="_blank">github</a>
-                  <a href="/feed" target="_blank">rss</a>
+                  <a href="http://hackages.io" target="_blank">hackages.io</a>
+                  <a href="https://github.com/hackages" target="_blank">github</a>
                 </nav>
             </footer>
             <span class="mobileAttribution">© 2015</span>
          </div>
-            
     </div>
-    
 
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}
