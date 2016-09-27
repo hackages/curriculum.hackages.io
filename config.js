@@ -81,7 +81,6 @@ config = {
       contentPath: path.join(__dirname, '/content/')
     }
   }
-
 };
 
 // Export config
