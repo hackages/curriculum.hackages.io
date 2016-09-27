@@ -22,5 +22,8 @@
   "scripts": {
     "postinstall": "ncp node_modules/Casper content/themes/casper",
     "start": "node server.js"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1"
   }
 }
